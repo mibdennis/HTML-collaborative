@@ -16,9 +16,6 @@ body {
   margin: 0;
   }  
 
-:hover {
-  background: white;
-}
 header, footer{
   padding: 1.2em;
   background: #006699;
@@ -52,6 +49,28 @@ li a {
 
 li a:hover {
     background-color: #111;
+}
+
+/*img:hover{
+    border: 3px solid #000;
+    border-radius:15%;
+    -webkit-transition: all 1s ease;
+                  -moz-transition: all 0.5s ease;
+                       -o-transition: all 0.5s ease;
+                    -ms-transition: all 0.5s ease;
+                           transition: all 0.5s ease; 
+}*/
+
+img {
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+ 
+img:hover {
+  -webkit-filter: grayscale(100%);
 }
 
 #pageHeader {

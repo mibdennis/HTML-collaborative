@@ -16,10 +16,6 @@ body {
   margin: 0;
   }  
 
-:hover {
-  background-color: white;
-}
-
 header, footer{
   padding: 1.2em;
   background: #006699;
